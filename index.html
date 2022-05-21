@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="submain">
+    <h1  class="animate__animated animate__bounceInDown animate__delay -1s  ">Calculator</h1>
+    <h2   class="animate__animated animate__rubberBand animate__delay -1s  ">Made By Hamza M.Shaoib:</h2>
+    <div class="mian animate__animated animate__bounceInRight animate__delay 3s  ">
+        <div class="userinput">
+            <input type="text" name="" id="userinput" placeholder="Enter Number" size="12">
+        </div>
+        <div class="buttons">
+            <button onclick="allclear ()"  id="space" class="color">A</button>
+            <button onclick="oneclear ()" id="space" class="color">C</button>
+            <button id="space" class="color">P</button>
+            <button  onclick="getvalue('/')" id="space" class="secondcolor">/</button><br>
+            <button  onclick="getvalue('7')" id="space" class="thredcolor">7</button>
+            <button  onclick="getvalue('8')" id="space" class="thredcolor">8</button>
+            <button  onclick="getvalue('9')" id="space"  class="thredcolor">9</button>
+            <button  onclick="getvalue('*')"  id="space" class="secondcolor">x</button> <br>
+            <button  onclick="getvalue('6')" id="space"  class="thredcolor">6</button>
+            <button  onclick="getvalue('5')" id="space"  class="thredcolor">5</button>
+            <button  onclick="getvalue('4')" id="space"  class="thredcolor">4</button>
+            <button  onclick="getvalue('+')" id="space" class="secondcolor">+</button><br>
+            <button  onclick="getvalue('3')" id="space"  class="thredcolor">3</button>
+            <button  onclick="getvalue('2')" id="space"  class="thredcolor">2</button>
+            <button  onclick="getvalue('1')" id="space"  class="thredcolor">1</button>
+            <button  onclick="getvalue('-')" id="space" class="secondcolor">-</button><br>
+            <button  onclick="getvalue('0')" id="space" class="thredcolor">0</button>
+            <button  onclick="getvalue('.')" id="space" class="thredcolor">.</button>
+            <button  onclick="totalvalue ()"  id="manyspace" class="secondcolor">=</button>
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script src="./app.js"></script>
+</html>

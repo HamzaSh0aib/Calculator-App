@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.submain{
+    width: 100%;
+    height: 100vh;
+    /* background: #A5A5A5 !important; */
+    /* background: linear-gradient(#1f4037,#99f2c8);
+     */
+     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(./Img/Bg\ Img.jfif);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* overla: linear-gradient(#bdc3c7, #2c3e50); */
+}
+h1{
+    font-size: 7rem;
+    display: inline;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    color: white;
+    
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    display: inline;
+    position: absolute;
+    top: 18rem;
+    left: 6rem;
+}
+.mian{
+    position: absolute;
+    top: 0;
+    right:12rem;
+    /* background-color: aqua; */
+    width: 20%;
+    height: 600px;
+    /* margin: 0 auto; */
+    margin: 50px ;
+    margin-top: 40px;
+    background-image: url(./Img/Phone1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000px;
+    
+}
+.userinput{
+    width: 100%;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#userinput{
+    padding-top:30px ;
+    padding-bottom:20px ;
+    padding-left: 10px;
+    padding-right: 29px;
+    margin-top: 145px;
+    color: white;
+    /* align-self: fle  x-end; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-bottom: 1.8px solid white;
+}
+::placeholder{
+    font-size: 20px;
+    color: white;
+    
+}
+.buttons{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height:400px ;
+    margin-left: 15px;
+    margin-top: 4rem;
+    
+}
+button{
+    /* padding: 10px; */
+    margin: 7px;
+    font-size: 13px;
+    
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 1px white;
+}
+button:active{
+   box-shadow: 0 0 0 white;
+}
+#space{
+    padding: 15px 18px;
+}
+#manyspace{
+    padding: 18px 50px;
+    text-align: center;
+}
+.color{
+    background-color: #A5A5A5;
+}
+.secondcolor{
+    background-color: #FD9E04;
+}
+.thredcolor{
+    background-color: #333333;
+}
